@@ -1,0 +1,27 @@
+{
+  "name": "hello-next",
+  "version": "1.0.0",
+  "description": "next.js的教程学习",
+  "main": "index.js",
+  "scripts": {
+    "cDev": "next",
+    "start": "next start -p 8999",
+    "cstart": "next start -p $PORT",
+    "dev": "node server.js",
+    "build": "next build",
+    "sstart": "NODE_ENV=production node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^7.0.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-markdown": "^4.0.4"
+  }
+}
