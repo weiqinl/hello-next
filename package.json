@@ -10,6 +10,7 @@
     "dev": "node server.js",
     "build": "next build",
     "export": "next build && next export",
+    "localExport": "next export && cd out/ && live-server",
     "sstart": "NODE_ENV=production node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
