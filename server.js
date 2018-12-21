@@ -14,6 +14,13 @@ app.prepare()
 		const queryParams = { id: req.params.id }
 		app.render(req, res, actualPage, queryParams)
 	})
+
+	server.get('/sp/:id', (req, res) => {
+		const actualPage = '/staticpost'
+		const queryParams = { title: req.params.id }
+		app.render(req, res, actualPage, queryParams)
+	})
+
 	server.get('*', (req, res) => {
 		return handle(req, res)
 	})

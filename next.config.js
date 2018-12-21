@@ -3,7 +3,10 @@ module.exports = {
 		return {
 			'/': { page: '/' },
 			'/about': { page: '/about' },
-			'/p/481': { page: '/post', query: { id: '481' } }
+			'/sp/hello-nextjs': { page: '/staticpost', query: { title: 'hello-nextjs'}},
+			'/sp/learn-nextjs': { page: '/staticpost', query: { title: 'learn-nextjs'}},
+			'/p/481': { page: '/post', query: { id: '481' } },
+			'/p/975': { page: '/post', query: { id: '975' } }
 		}
 	}
 }
